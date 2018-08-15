@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../main_wrap.css">
+    <link rel="stylesheet" href="../css/sing_up.css">
+    <script src="sing_up.js" defer></script>
+    <title>sing_up</title>
+</head>
+<body>
+<main class="main__wrap">
+    <h1 class="sing-in-head">Sing up</h1>
+    <div class="main__form-wrap">
+        <form class="main__form form-authorization" action="#">
+            <h1 class="main__form__authorization-head">On-line certification <br> and authorization service</h1>
+            <input type="text" placeholder="Your name" name="user_name" class="main__form-name form-input" title="Enter your name" required>
+            <input type="text" placeholder="Your email" name="email" class="main__form-email form-input" title="Enter your email" required>
+            <input type="password" placeholder="Password" name="password" class="main__form-password form-input" title="Enter your password" minlength="8" required>
+            <input type="password" placeholder="Repeat password" name="repeat_password" class="main__form-password form-input" title="Repeat password" minlength="8" required>
+            <input type="reset" name="reset" class="main__form-reset form-btn" value="Cancel"> <!-- при неверном пароле поменять класс на ".reset-active" -->
+            <input type="submit" id="sing_up" name="sign_up" class="main__form-submit-singUp form-btn" value="Sign up"> <!-- при заполнении поменять класс на ".singUp-authorized"-->
+
+        </form>
+    </div>
+</main>
+
+</body>
+</html>
