@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="main_wrap.css">
+    <title>Log in</title>
+</head>
+<body>
+<aside class="sidebar">
+      <a href="#" class="logo__wrap">
+            <img src="img/logo.svg" alt="logo" class="logo">
+        </a>
+        <ul class="sidebar__link-list">
+            <li class="sidebar__link-list-item">
+                <a href="latest-blocks.html" class="sidebar__link">Latest Blocks</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="index.html" class="sidebar__link">Latest Transactions</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="largest.html" class="sidebar__link">Largest Wallets</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="statistics.html" class="sidebar__link">Statistics</a>
+            </li>
+            <li class="sidebar__link-list-item">
+                <a href="about.html" class="sidebar__link">About eCurrency</a>
+            </li>
+        </ul>
+
+        <button class="sidebar__wallet-btn">
+            <img src="img/wallet.svg" alt="wallet" class="sidebar__wallet-img">
+            <p class="sidebar__wallet-btn-get-wallet">Get a <br>free wallet</p>
+        </button>
+</aside>
+<header>
+    <nav class="nav__group">
+        <ul class="nav__block">
+            <li class="nav__item">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+                <a href="about-us.html" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+                <a href="faq.html" class="nav__link">FAQ</a>
+            </li>
+            <li class="nav__item nav__item-currency">
+                <span>Currency:</span> eCurrency
+                <img class="nav__item-currency-img" src="img/chevron-down.svg" alt="currency">
+                <ul class="nav__dropdown-list">
+                    <li class="currency-dropdown__list-item dropdown__list-item">
+                        <a href="#ecurrency" class="currency-dropdown__link">eCurrency</a>
+                    </li>
+                    <li class="currency-dropdown__list-item dropdown__list-item">
+                        <a href="#litecoin" data-flag="Comming soon"
+                           class="currency-dropdown__link currency-dropdown__link_unaviable">Litecoin</a>
+                    </li>
+                    <li class="currency-dropdown__list-item dropdown__list-item">
+                        <a href="#bitcoin" data-flag="Comming soon"
+                           class="currency-dropdown__link currency-dropdown__link_unaviable">Bitcoin</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav__lang-list">
+            <li class="nav__lang-list-item">
+                <a href="#en" class="nav__link nav__link_active">en</a>
+            </li>
+            <li class="nav__lang-list-item">
+                <a href="#nl" class="nav__link">nl</a>
+            </li>
+            <li class="nav__lang-list-item">
+                <a href="#de" class="nav__link">de</a>
+            </li>
+        </ul>
+        <div class="nav__authorization nav__auth-wrap_authorized">
+            <a href="sign-in.html" class="nav__link nav__link_sign-in">
+                <img src="img/log-in.svg" alt="sing_in" class="nav__sing-in-img">
+                Sign in
+            </a>
+        </div>
+    </nav>
+    <form action="#" class="search" >
+            <input type="text" class="search__input" placeholder="Type here to search by wallet address, transaction hash..." />
+            <button class="search__btn btn" type="submit">Search</button>
+    </form>
+</header>
+<main class="main__wrap">
+    <h1 class="sing-in-head">Sing in</h1>
+    <div class="main__form-wrap">
+    <form class="main__form form-authorization" action="#">
+        <h1 class="form-head">On-line certification <br> and authorization service</h1>
+        <input type="text" placeholder="Your email" name="email" class="form-email form-input" title="Enter your email" required>
+        <input type="password" placeholder="Password" name="password" class="form-password form-input" title="Enter your password" required>
+        <label><input type="checkbox" name="remember_me" class="form-checkbox" title="Remember me"><span class="main__form-remember-me form-pass-part">Remember me</span></label>
+        <a href="#" class="main__form-forgot-pass form-pass-part">Forgot your password?</a><br>
+        <input type="submit" name="sign_in" class="form-submit-singIn form-btn" value="Sign in">
+        <input type="submit" name="sign_up" class="form-submit-singUp form-btn" value="Sign up">
+
+    </form>
+        <form class="main__form form-login"><h1 class="form-head">Login with E-ID</h1>
+            <span class="form-login__text-area">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+            <input type="submit" name="signIn__E-id" class="main__form-login-submit form-btn" value="Sign in with E-ID">
+        </form>
+    </div>
+</main>
+
+</body>
+</html>

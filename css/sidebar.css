@@ -1,0 +1,112 @@
+.sidebar {
+    height: 100%;
+    width: 19%;
+    background: #3F4C65;
+    float: left;
+}
+.logo {
+    display: block;
+    margin: 40px auto;
+    width: 142px;
+    height: 56px;
+}
+.sidebar__link-list {
+    padding: 0;
+}
+.sidebar__link-list-item {
+    list-style: none;
+}
+.sidebar__link-list-item > a {
+    display: block;
+    margin: auto;
+    padding: 12px 0 12px 15px;
+    width: 75%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Archivo;
+    font-size: 16px;
+    line-height: 17px;
+}
+.sidebar__wallet-btn {
+    position: relative;
+    height: 64px;
+    width: 70%;
+    border: 1px solid #79879F;
+    border-radius: 8px;
+    background-color: #3F4C65;
+    color: #9DF4FF;
+    padding: 0;
+    margin: 10px 15%;
+}
+.sidebar__wallet-img {
+    position: absolute;
+    height: 26px;
+    width: 24px;
+    left: 20px;
+    top: 19px;
+}
+.sidebar__wallet-btn-get-wallet {
+    display: inline-block;
+    height: 30px;
+    width: 66px;
+    font-family: Archivo;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 35px;
+}
+.sidebar__link-list-item:hover {
+    background: rgb(55, 70, 92);
+    transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+    .sidebar__link-list-item > a {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .sidebar__wallet-btn {
+        height: 55px;
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    .sidebar__wallet-img {
+        top: 16px;
+        left: 10px;
+    }
+
+}
+@media (max-width: 875px) {
+    .sidebar__link-list-item > a {
+        font-size: 12px;
+        line-height: 13px;
+        padding-left: 10px;
+    }
+    .logo {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .sidebar__wallet-btn {
+        height: 45px;
+    }
+}
+@media (max-width: 875px) {
+    .sidebar__link-list-item > a {
+        font-size: 10px;
+        line-height: 11px;
+        padding-left: 2px;
+    }
+}
+@media (max-width: 630px) {
+    .sidebar__link-list-item > a {
+        font-size: 9px;
+        line-height: 10px;
+        padding-left: 0;
+    }
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        width: 80px;
+    }
+}

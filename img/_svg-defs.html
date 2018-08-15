@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute">
+    <defs>
+        <radialGradient id="radial-gradient-red" cx="-374.04" cy="-1.07" r="2.44"
+                        gradientTransform="translate(-11505.64 -66854.49) rotate(-100) scale(182.06)"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ff2424"></stop>
+            <stop offset="1" stop-color="#900000"></stop>
+        </radialGradient>
+        <linearGradient x1="0%" x2="100%" y1="0%" y2="100%" id="linear-gradient-blue">
+            <stop offset="0%" stop-color="#27CAFF"></stop>
+            <stop offset="100%" stop-color="#008FE5"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" x2="100%" y1="0%" y2="100%" id="linear-gradient-green">
+            <stop offset="0%" stop-color="#59d643"></stop>
+            <stop offset="100%" stop-color="#57A644"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" x2="100%" y1="0%" y2="100%" id="linear-gradient-orange">
+            <stop offset="0%" stop-color="#ff990f"></stop>
+            <stop offset="100%" stop-color="#CB760F"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" x2="100%" y1="0%" y2="100%" id="linear-gradient-grey">
+            <stop offset="0%" stop-color="#D9D9D9"></stop>
+            <stop offset="100%" stop-color="#808080"></stop>
+        </linearGradient>
+
+        <filter id="drop-shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="2"/> <!-- stdDeviation is how much to blur -->
+            <feOffset dx="0" dy="0" result="offsetblur"/> <!-- how much to offset -->
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.2"/> <!-- slope is the opacity of the shadow -->
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/> <!-- this contains the offset blurred image -->
+                <feMergeNode in="SourceGraphic"/> <!-- this contains the element that the filter is applied to -->
+            </feMerge>
+        </filter>
+    </defs>
+</svg>

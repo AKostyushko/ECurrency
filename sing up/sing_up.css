@@ -1,0 +1,51 @@
+.main__form-reset {
+    border: 2px solid #3BAFFF;
+    color: #3BAFFF;
+    background-color: white;
+}
+.main__form-reset:hover {
+    color: #FFFFFF;
+    background-color: #3BAFFF;
+}
+.main__form-submit-singUp {
+    background-color: #F7F7F7;
+    color: #B3B3B3;
+    border-color: #F7F7F7;
+}
+.main__form-wrap:after {
+    content: none;
+}
+.singUp-authorized {
+    border: 2px solid #3BAFFF;
+    color: #FFFFFF;
+    background-color:  #3BAFFF;
+}
+.reset-active {
+    border: 2px solid #3BAFFF;
+    color: #FFFFFF;
+    background-color:  #3BAFFF;
+}
+.main__form-code {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-style: none none solid none;
+    margin: 5px;
+    text-align: center;
+    border-color: rgb(230, 230, 230);
+}
+.main__form-code:focus {
+    outline: none;
+
+}
+.main__form-code:first-child {
+    margin-left: 25px;
+}
+.main__form-code-head {
+    padding-left: 25px;
+    font-family: Archivo;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 25px 0;
+    color: rgb(150, 150, 150);
+}
